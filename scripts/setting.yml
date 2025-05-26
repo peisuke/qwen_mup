@@ -1,0 +1,31 @@
+data:
+  path: ./data/wikitext-2
+shape:
+  path: nl8_width320.bsh
+
+exp:
+  seed: 42
+  output:
+    path:
+      ./coord_checks
+
+model:
+  width: 80
+  exp_width: 320
+  ffn_ratio: 5.4
+  nhead: 40
+  nkvhead: 8
+  nlayers: 8
+  dropout: 0.2
+  tied: false
+  init_var: 1
+
+train:
+  lr: 0.001
+  optimizer: adam
+  batch_size: 8
+  coord_check_nsteps: 3
+  coord_check_nseeds: 3
+  lr_check_nsteps: 1000
+  precision: float
+  seq_len: 8
