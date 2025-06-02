@@ -39,7 +39,7 @@ This script examines how the scale of activations (referred to as "coordinates")
 
 You can visualize the output results using the provided Jupyter notebook.
 
-<img width="765" alt="coord_check" src="https://github.com/user-attachments/assets/98d5a3fa-24d8-43af-94f4-e3bd3d8eb229" />
+![image](https://github.com/user-attachments/assets/d47c556f-8090-41c2-a116-eda7bb8107d5)
 
 ## Learning Rate Scaling Check
 
